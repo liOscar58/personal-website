@@ -16,6 +16,29 @@
 
   <!--creates the border-->
   <div id="screen"></div>
+  
+
+
+
+  
+
+  <audio hidden id="Test_Audio" controls>
+  <source src="Macroblank_-_.mp3"type="audio/mpeg">
+  </audio> 
+
+
+  <button ondblclick="play()" type="button">▶</button>
+  <button ondblclick="pause()" type="button">◼</button>
+
+  <script>
+    var gfg = document.getElementById("Test_Audio");  
+    function play() {
+        gfg.play();
+    }
+    function pause() {
+        gfg.pause();
+    }
+  </script> 
 
 
 

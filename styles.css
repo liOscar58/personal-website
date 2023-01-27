@@ -17,8 +17,10 @@ body {
     overflow: hidden
   }
 
-  .toggle-mode{
-    
+button{
+    border: none;
+    background: none;
+    color:rgb(201, 201, 201)
   }
 
 
