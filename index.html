@@ -17,16 +17,13 @@
   <!--creates the border-->
   <div id="screen"></div>
   
-  <audio id="myaudio">
+  <audio loop id="myaudio">
     <source src="Macroblank_-_.mp3" type="audio/mpeg">
   </audio>
-  
   <button onclick="play();">▶</button>
   <button onclick="pause();">◼</button>
-  
   <script>
       let audio = document.getElementById("myaudio");
-  
       let play = () => {
         audio.play();
       }
@@ -35,8 +32,6 @@
         audio.pause();
       }
   </script>
-
-
 
   </body>
 
