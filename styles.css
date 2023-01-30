@@ -114,7 +114,8 @@ h1{
     font-family: "Copperplate Gothic", 'Courier New', Courier, monospace;
 }
 
-p2{
+p3{
     position: relative;
+    visibility: hidden;
 
 }

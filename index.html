@@ -51,11 +51,27 @@
         audio.pause();
       }
   </script>
+  <p3 id="abMe">"this is my text"</p3>
 
-  <p><button2 type="button" onclick= "myFunction" >About me</button></p>
-  <p><button3 type="button" onclick= "https://github.com/liOscar58" >GitHub</button></p>
+  <p><button2 type="button" onclick= "myFunction()" >About me</button></p>
+  <p><button3 type="button" onclick= "location.href='https://github.com/liOscar58'" >GitHub</button></p>
   <p><button4 type="button" onclick="">Contact Me</button4></p>
-  <p><button5 type="button" onclick="">LinkedIn</button4></p>
+  <p><button5 type="button" onclick= "location.href='https://www.linkedin.com/in/oscar-li-409127212/'">LinkedIn</button4></p>
+
+  
+
+  <script>
+    function myFunction() {
+        var x = document.getElementById("abMe");
+        var displaySettings = x.style.visibility;
+        if (displaySettings === "hidden") {
+            x.style.visibility = "visible";
+        } else {
+            x.style.visibility = "hidden";
+        }
+    }
+</script>
+
 
 
 
