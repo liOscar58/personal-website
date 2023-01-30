@@ -1,10 +1,5 @@
 <!--
-  stuff to do
-  
-  -make dark mode toggle
-  -make links
-  -make resume
-  -chatgpt to cover letter
+  this is gods worst creation
 -->
 
 
@@ -51,17 +46,30 @@
         audio.pause();
       }
   </script>
-  <p3 id="abMe">"this is my text"</p3>
+  <p3 id="abMe">2nd year studying @uOttawa Computer Science 
+  <br><br> Python, Java, Javascript, HTML, CSS, CircleCi
+  <br><br> interested in summer 2023 software snternships
+  <br><br> Ottawa / Greater Tortonto region
+  <br><br> remote work not a problem
+  <br><br> attention driven and career focused
+  <br><br> highly adaptable and experienced in team enviroments
+</p3>
 
-  <p><button2 type="button" onclick= "myFunction()" >About me</button></p>
+  <p4 id="contact"> I can be reached by email 
+    <br><br> lioscar58@gmail.com
+  </p4>
+
+
+
+  <p><button2 type="button" onclick= "aboutInfo()" >About me</button></p>
   <p><button3 type="button" onclick= "location.href='https://github.com/liOscar58'" target="_blank">GitHub</button></p>
-  <p><button4 type="button" onclick="">Contact Me</button4></p>
+  <p><button4 type="button" onclick="contactInfo()">Contact Me</button4></p>
   <p><button5 type="button" onclick= "location.href='https://www.linkedin.com/in/oscar-li-409127212/'" target="_blank">LinkedIn</button4></p>
 
   
 
   <script>
-    function myFunction() {
+    function aboutInfo() {
         var x = document.getElementById("abMe");
         var displaySettings = x.style.visibility;
         if (displaySettings === "hidden") {
@@ -70,6 +78,18 @@
             x.style.visibility = "hidden";
         }
     }
+</script>
+
+<script>
+  function contactInfo() {
+      var x = document.getElementById("contact");
+      var displaySettingsInfo = x.style.visibility;
+      if (displaySettingsInfo === "hidden") {
+          x.style.visibility = "visible";
+      } else {
+          x.style.visibility = "hidden";
+      }
+  }
 </script>
 
 

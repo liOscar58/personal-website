@@ -115,7 +115,18 @@ h1{
 }
 
 p3{
-    position: relative;
+    position: fixed;
     visibility: hidden;
+    font-size: smaller;
+    top: 200px;
+    left: 80px;
+}
+
+p4{
+    position: fixed;
+    visibility: hidden;
+    right: 100px
+    
+
 
 }
