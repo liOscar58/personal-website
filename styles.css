@@ -24,6 +24,19 @@ button{
     color:rgb(201, 201, 201)
   }
 
+  button2{
+    position: relative;
+    top: 470px;
+    font-size: smaller;
+    border: none;
+    background: none;
+    color:rgb(201, 201, 201)
+    
+
+    
+
+  }
+
 
 
 #screen{
@@ -61,4 +74,9 @@ h1{
     top: 50px;
     left: 75px;
     font-family: "Copperplate Gothic", 'Courier New', Courier, monospace;
+}
+
+p2{
+    position: relative;
+    display: none;
 }

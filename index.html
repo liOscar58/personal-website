@@ -13,29 +13,23 @@
 
     <head>
         <link rel="stylesheet" href="styles.css">
-        <title>oscar codes</title>
+        <title>Oscar Li</title>
         <h1>Oscar Li</h1>
 	</head>
 
   <body>
 
-  <!-- Load React. -->
-  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-
-  <!-- Load our React component. -->
-  <script src="like_button.js"></script>
+  
 
     <p1>Junior Developer</p>
 
 
       <!--creates the cube-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
-    <script type="text/javascript" src="cube.js"></script>
+    <script type="text/javascript" src="javascript/cube.js"></script>
 
   <!--creates the border-->
-  <div id="screen"></div>
+    <div id="screen"></div>
 
 
   <!--
@@ -43,10 +37,10 @@
     watch out of the cube overlapping stuff
   -->  
   <audio loop id="myaudio">
-    <source src="Macroblank_-_.mp3" type="audio/mpeg">
+    <source src="/assests/Macroblank_-_.mp3" type="audio/mpeg">
   </audio>
-  <button onclick="play();">▶</button>
-  <button onclick="pause();">◼</button>
+  <button type ="button" onclick="play();">▶</button>
+  <button type ="button" onclick="pause();">◼</button>
   <script>
       let audio = document.getElementById("myaudio");
       let play = () => {
@@ -57,6 +51,13 @@
         audio.pause();
       }
   </script>
+
+  <script type="text/javascript" src="/javascript/myFunction.js"></script>
+  <p2 id="abMe">"2nd Year @uOttawa Comp Sci"</p2>
+  <p><button2 type="button" onclick="myFunction()">About me</button></p>
+
+
+
 
 
 
