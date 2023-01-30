@@ -24,18 +24,52 @@ button{
     color:rgb(201, 201, 201)
   }
 
-  button2{
+button2{
     position: relative;
     top: 470px;
+    left: 30%;
     font-size: smaller;
     border: none;
     background: none;
-    color:rgb(201, 201, 201)
-    
-
-    
-
+    color:rgb(201, 201, 201);
   }
+
+button2:hover{
+    background:rgb(201, 201, 201);
+    color: black;
+}
+
+button3{
+    position: relative;
+    top: 442px;
+    left: 176%;
+    font-size: smaller
+  }
+  
+button3:hover{
+    background:rgb(201, 201, 201);
+    color: black;
+}
+
+button4{
+    position: relative;
+    top: 414px;
+    font-size: smaller;
+    left: 323%;
+}
+
+button4:hover{
+    background:rgb(201, 201, 201);
+    color: black;
+}
+
+button5{
+    position:relative;
+    top: 386px;
+    font-size: smaller;
+    left: 470%;
+
+}
 
 
 
@@ -78,5 +112,5 @@ h1{
 
 p2{
     position: relative;
-    display: none;
+
 }
